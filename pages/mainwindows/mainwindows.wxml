@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="moreInfo">
+		<!-- 1 -->
+		<view class="item">光照强度：{{lightvalue}}</view>
+		<view class="separator"></view>
+		<view class="item">二氧化碳浓度：{{eco2value}}</view>
+		<view class="separator"></view>
+		<view class="item">甲醛浓度：{{tvocvalue}}</view>
+		<!-- 2 -->
+		<view class="item">温度：{{tempvalue}}</view>
+		<view class="separator"></view>
+		<view class="item">湿度：{{humvalue}}</view>
+		<view class="separator"></view>
+	</view>
+	<text>\r\n</text>
+	<button type="primary"bindtap="connectservice">连接服务器</button>
+	<text>{{state}}</text>
+	<text>\r\n</text>
+	<view class="switch">
+		<view class="switch_led">
+    	<text space="ensp">LED状态                  </text>
+    	<switch class="tui-fr" checked="{{LEDstate}}" 	bindchange="changeLed"/>
+			<view class="separator"></view>
+		</view>
+		<text>\r\n</text>
+		<view class="switch_hum">
+			<text space="ensp">加湿器状态                </text>
+    	<switch class="tui-fr" checked="{{HUMstate}}" bindchange="changeHum"/>
+		</view>
+		<text>\r\n</text>
+		<view class="switch_fen">
+			<text space="ensp">风扇状态                  </text>
+    	<switch class="tui-fr" checked="{{FENstate}}" bindchange="changeFen"/>
+		</view>
+  </view>
+</view>

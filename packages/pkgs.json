@@ -1,0 +1,42 @@
+[
+ {
+  "path": "/packages/iot/pahomqtt", 
+  "ver": "v1.1.0", 
+  "name": "PAHOMQTT"
+ }, 
+ {
+  "path": "/packages/tools/EasyFlash", 
+  "ver": "v4.1.0", 
+  "name": "EASYFLASH"
+ }, 
+ {
+  "path": "/packages/system/fal", 
+  "ver": "v0.5.0", 
+  "name": "FAL"
+ }, 
+ {
+  "path": "/packages/system/littlefs", 
+  "ver": "latest", 
+  "name": "LITTLEFS"
+ }, 
+ {
+  "path": "/packages/peripherals/sensors/bh1750", 
+  "ver": "latest", 
+  "name": "BH1750"
+ }, 
+ {
+  "path": "/packages/peripherals/sensors/sgp30", 
+  "ver": "latest", 
+  "name": "SGP30"
+ }, 
+ {
+  "path": "/packages/peripherals/sht3x", 
+  "ver": "v1.0.0", 
+  "name": "SHT3X"
+ }, 
+ {
+  "path": "/packages/peripherals/touch/ft5426", 
+  "ver": "latest", 
+  "name": "FT5426"
+ }
+]
